@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Envs
+.venv/
+venv/
+env/
+.env
+
+# Logs / cache
+logs/
+*.log
+.pytest_cache/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Données/poids lourds (ajuste selon besoin)
+data/
+outputs/
+checkpoints/
+
+# ROS2
+*.bag
+*.bag.active
+
+# Isaac / assets lourds (adapter si tu veux suivre certains)
+*.usd
+*.usda
+*.usdc
